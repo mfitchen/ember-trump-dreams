@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body, .warp {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #de2632;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 125px;
+  background-image: url('http://cdn.pcwallart.com/images/gold-texture-wallpaper-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 5px 7px rgba(5, 5, 5, .5);
+  z-index: 10000;
+}
+
+.trump-face {
+  display: flex;
+  align-items: center;
+  height: 125px;
+  img {
+    height: 99px;
+    width: auto;
+    margin-left: 20px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+}
+
+.trump-dreams {
+  display: flex;
+  align-items: center;
+  height: 125px;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 5px #de2632;
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    .dreams {
+      font-weight: normal;
+      color: #de2632;
+      font-size: 0.8em;
+      letter-spacing: 1px;
+      text-shadow: 3px 3px 5px #ffffff;
+    }
+  }
+}
+
+.body-wrap {
+  margin: 0;
+  padding: 20px 20px;
+  h2 {
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+}
+
+.form-group {
+  display: flex;
+  input {
+    height: 33px;
+    width: 100px;
+    padding: 0 3px;
+    margin: 0;
+  }
+  button.btn {
+    height: 33px;
+    width: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: steelblue;
+    font-size: 0.65em;
+    font-weight: bolder;
+    color: #ffffff;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+}
